@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "62988bb6-8306-43bc-856c-e68d59499ad1",
+  "revision": 2228,
+  "createdAt": "2026-09-29T01:15:38.371Z",
+  "exportedAt": "2026-09-29T07:15:12.862Z",
+  "learnerLabel": "Revised QA Control Review by Stephania Malagon",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "QA Control Review"
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "QA Cell traceability and command ownership needs to improve, both are unclear."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "The QA and Engineering team, including Nia Voss, can benefit from clarity and transparency that comes with improving QA Cell traceability and command ownership. The QA team lost a lot of time trying to find out who owned what command."
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "W02-S01, W02-S02"
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "This review does not authorize any expenses, nor deletion of any records or robots."
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "Yes, as stated in W02-S04, the QA team members were able to locate the command custodian and original source. The access condition is that if access is denied, the team must revise the work or defer it."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "Yes, the Operations team needs to confirm availability."
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "According to W02-S05, the 8-day plan has two business days of headroom against the 10-day limit so overtime pay is excluded. That amount also excludes equipment and licenses."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The 8-day plan heavily relies on whether that plan continues without setbacks."
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "As Elias stated, late exports and QA shift reassignment can change the 8-day plan."
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "Hours for each team can change the estimate or delivery, their schedules need to be checked for availability and Mara Ilyan can check that."
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "The sponsor can check the later value by comparing the current cost estimate to what it actually ends up being. As well as the current staff minutes compared to what it might be in the future."
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "revise"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "I chose to revise because the plan needs adjustment for some unknowns such as the team schedules(W02-S01), cost estimates(W02-S05). The most compelling evidence is how the QA team knew what to do and how to do it, they did not lack resources to accomplish their tasks, they only needed command authorization and access."
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "The team leaders can decide what they need and what their teams need to do."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
