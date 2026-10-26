@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Current Process" id="w05-process">
+    <mxGraphModel dx="1411" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="CIT 140 · Week 5 | Current Appointment Process" vertex="1">
+          <mxGeometry height="40" width="1080" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="instructions" parent="1" style="text;html=1;fontSize=13;align=left;whiteSpace=wrap;" value="Replace this line with your process start and end. Add supported steps and decisions in the responsible role&#39;s lane. Label decision branches and source IDs." vertex="1">
+          <mxGeometry height="45" width="1080" x="40" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="visitor" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Visitor" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-14" edge="1" parent="visitor" source="tbGwhCtYUug6uRwxf2uX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="tbGwhCtYUug6uRwxf2uX-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-1" parent="visitor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Visitor requests an appointment&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-7" edge="1" parent="visitor" source="tbGwhCtYUug6uRwxf2uX-4" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="tbGwhCtYUug6uRwxf2uX-9" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="80" as="sourcePoint" />
+            <mxPoint x="533.7300000000002" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scheduling" parent="visitor" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Scheduling" vertex="1">
+          <mxGeometry height="100" width="1080" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-2" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Requested Slot&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-3" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Support preferences&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-4" parent="scheduling" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Are the booking details complete?&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="100" x="470" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-5" edge="1" parent="scheduling" source="tbGwhCtYUug6uRwxf2uX-2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tbGwhCtYUug6uRwxf2uX-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="42" as="sourcePoint" />
+            <mxPoint x="320" y="42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-6" edge="1" parent="scheduling" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tbGwhCtYUug6uRwxf2uX-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="42" as="sourcePoint" />
+            <mxPoint x="490" y="42.499999999999886" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-10" edge="1" parent="scheduling" source="tbGwhCtYUug6uRwxf2uX-4" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="30" as="sourcePoint" />
+            <mxPoint x="620" y="42.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-11" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Request clinical readiness decision&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="620" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-21" parent="scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="[HELD]&lt;div&gt;Review capacity&lt;/div&gt;&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="780" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-12" parent="visitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Review revised request&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="620" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-9" parent="visitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Contact visitor&lt;div&gt;(W05-S01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="455" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-13" edge="1" parent="visitor" source="tbGwhCtYUug6uRwxf2uX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="tbGwhCtYUug6uRwxf2uX-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-22" parent="visitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Reschedule&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="830" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-28" edge="1" parent="visitor" source="tbGwhCtYUug6uRwxf2uX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;curved=1;curveGeometry=1;" target="tbGwhCtYUug6uRwxf2uX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-29" connectable="0" parent="tbGwhCtYUug6uRwxf2uX-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Not available" vertex="1">
+          <mxGeometry relative="1" x="0.1818" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clinical" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Clinical&lt;br&gt;Operations" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-18" edge="1" parent="clinical" source="tbGwhCtYUug6uRwxf2uX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tbGwhCtYUug6uRwxf2uX-24" value="">
+          <mxGeometry relative="1" x="-0.2683" as="geometry">
+            <mxPoint x="510" y="42.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-15" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Receive scheduling request&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="280" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-24" parent="clinical" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Room and clinician available?&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="110" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-4" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;[HELD]&lt;/div&gt;Exception review&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="780" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-26" parent="clinical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Record readiness&lt;div&gt;(W05-S02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="590" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-19" edge="1" parent="clinical" source="tbGwhCtYUug6uRwxf2uX-24" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="tbGwhCtYUug6uRwxf2uX-26" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575.0000000000002" y="65" as="sourcePoint" />
+            <mxPoint x="575" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-15" edge="1" parent="clinical" source="4RwhdBXNAwmVZzwYdbSp-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;edgeStyle=orthogonalEdgeStyle;curved=1;curveGeometry=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0014" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="135" />
+              <mxPoint x="1030" y="-10" />
+            </Array>
+            <mxPoint x="980" y="75" as="sourcePoint" />
+            <mxPoint x="970" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="intake" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Intake" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-33" edge="1" parent="intake" source="tbGwhCtYUug6uRwxf2uX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="tbGwhCtYUug6uRwxf2uX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-31" parent="intake" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Visitor arrives&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="160" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-32" parent="intake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Staff locate appointment&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="320" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-40" edge="1" parent="intake" source="tbGwhCtYUug6uRwxf2uX-32" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tbGwhCtYUug6uRwxf2uX-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="50" as="sourcePoint" />
+            <mxPoint x="490" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-42" parent="intake" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Status: Ready?&lt;div&gt;(W05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="110" x="530" y="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-10" edge="1" parent="intake" source="4RwhdBXNAwmVZzwYdbSp-11" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2368" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="77.5" />
+              <mxPoint x="770" y="90" />
+            </Array>
+            <mxPoint x="970" y="-110" as="sourcePoint" />
+            <mxPoint x="640" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-11" parent="intake" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Review Again" vertex="1">
+          <mxGeometry height="30" width="80" x="980" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff" parent="1" style="swimlane;horizontal=0;startSize=145;html=1;fillColor=#e8f1ef;strokeColor=#5a7c7d;fontSize=15;fontStyle=1;" value="Next staff team" vertex="1">
+          <mxGeometry height="100" width="1080" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-1" parent="handoff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Support arrangement confirmation&lt;div&gt;(WO05-S03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="520" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;fontSize=13;align=left;" value="Symbol key (copy these shapes into your lanes; they are not case steps)" vertex="1">
+          <mxGeometry height="30" width="1080" x="40" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="l-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Start / end" vertex="1">
+          <mxGeometry height="45" width="130" x="200" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l-activity" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="Activity" vertex="1">
+          <mxGeometry height="45" width="130" x="390" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l-decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ee;strokeColor=#95694b;" value="Decision?" vertex="1">
+          <mxGeometry height="65" width="100" x="590" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="l-arrow" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#5a7c7d;" value="Labeled sequence">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="735" as="sourcePoint" />
+            <mxPoint x="980" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-16" edge="1" parent="1" source="tbGwhCtYUug6uRwxf2uX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;curved=1;curveGeometry=1;" target="tbGwhCtYUug6uRwxf2uX-15">
+          <mxGeometry relative="1" x="0.0032" as="geometry" />
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-41" edge="1" parent="1" source="tbGwhCtYUug6uRwxf2uX-42" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4RwhdBXNAwmVZzwYdbSp-1" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="560" as="sourcePoint" />
+            <mxPoint x="575" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-20" edge="1" parent="1" source="tbGwhCtYUug6uRwxf2uX-24" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=1;libavoidRouting=1;" target="tbGwhCtYUug6uRwxf2uX-21" value="No">
+          <mxGeometry relative="1" x="0.0377" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="350" />
+              <mxPoint x="805" y="294" />
+            </Array>
+            <mxPoint x="680" y="382.5" as="sourcePoint" />
+            <mxPoint x="723.73" y="382.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-2" edge="1" parent="1" source="tbGwhCtYUug6uRwxf2uX-42" style="endArrow=block;html=1;strokeColor=#5a7c7d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;curveGeometry=1;" target="4RwhdBXNAwmVZzwYdbSp-4" value="No">
+          <mxGeometry relative="1" x="-0.1429" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="720" y="510" as="sourcePoint" />
+            <mxPoint x="670" y="492.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbGwhCtYUug6uRwxf2uX-38" edge="1" parent="1" source="tbGwhCtYUug6uRwxf2uX-26" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="tbGwhCtYUug6uRwxf2uX-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="705" y="480" as="sourcePoint" />
+            <mxPoint x="585" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RwhdBXNAwmVZzwYdbSp-8" edge="1" parent="1" source="4RwhdBXNAwmVZzwYdbSp-4" style="endArrow=none;html=1;rounded=1;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;edgeStyle=orthogonalEdgeStyle;curveGeometry=1;shape=filledEdge;dashed=1;" target="tbGwhCtYUug6uRwxf2uX-21" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1247" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="372.5" />
+              <mxPoint x="1010" y="282.5" />
+            </Array>
+            <mxPoint x="550" y="440" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Scope and Findings" id="w05-findings">
+    <mxGraphModel dx="1471" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#183c43;align=left;" value="Week 5 | Scope and Findings" vertex="1">
+          <mxGeometry height="40" width="1070" x="45" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;1 · Process scope&lt;/b&gt;&lt;br&gt;Stephania Malagon&lt;div&gt;The process purpose is to replicate how an appointment is made and processed and the errors that come up, and how those are processed. It started with a visitor requesting an appointment, that appointment going through scheduling, clinical operations, and intake. Ending with the visitor being held and having to repeat the appointment review process or having support arrangements confirmed.&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="1070" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="walkthrough" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="&lt;b&gt;2 · Check the two paths&lt;/b&gt;&lt;br&gt;&lt;div&gt;Ordinary Appointment: The visitor requests appointment, Scheduling checks for details, Clinical Operations checks whether rooms and clinicians are available, Intake revises visitor arrival and readiness, visitor seemingly proceeds with the appointment through the next team.&lt;/div&gt;&lt;div&gt;Incident Appointment: Visitor requests appointment, information is not completed or rooms and clinician are not ready resulting in a HELD status for both Clinical Operations and Intake.&amp;nbsp;&lt;/div&gt;&lt;div&gt;The gap shows both Scheduling and Clinical Operations preparing for the visitor but it seems that Intake records their information separately and so they receive information late in the process, slowing down the entire process. W05-S04 states that a missing record does not indicate a missing action, so it is not certain whether a team forgot to record a step or whether the step was skipped all together.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="1070" x="45" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sources" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;3 · Evidence and model review&lt;/b&gt;&lt;br&gt;&lt;div&gt;W05-S01: Visitor requests an appointment, Requested Slot, Support preferences, Are booking details complete?, Request clinical readiness decision(Yes), Contact visitor(No), Review revised request.&lt;/div&gt;&lt;div&gt;W05-S02: Receive scheduling request, Room and clinician available? Record readiness(Yes), [HELD] Review capacity, Reschedule(Not Available)&lt;/div&gt;&lt;div&gt;W05-S03: Visitor arrives, Staff locate appointment, Status:Ready?, Support arrangement confirmation(Yes), [HELD] Exception review(No)&lt;/div&gt;&lt;div&gt;W05-S04: Exception review, Readiness revised&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="reflection" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=15;fillColor=#fff7ee;strokeColor=#95694b;" value="&lt;b&gt;4 · Learning reflection (reuse your Discord paragraph)&lt;/b&gt;&lt;br&gt;What became clearer through this model is that certain steps can have a lot of outcomes and different teams can partake in the same steps too. This differs from week 4 where we had to assign a single drop-down label per requirement, there is a lot more nuance. What became unclear is whether an appointment was completed fully or not, there are no steps after, &quot;Support arrangement confirmation(W05-S03),&quot; while previous steps were detailed. It&#39;s not clear whether the next staff team completed the appointment or if it kept looping between HELD statuses from Scheduling and Clinical(W05-S02, W05-S03)." vertex="1">
+          <mxGeometry height="140" width="1070" x="45" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=12;fontSize=14;fillColor=#edf5f2;strokeColor=#5a7c7d;" value="&lt;b&gt;5 · Portfolio evidence&lt;/b&gt;&lt;br&gt;[Malagon_Stephania_CIT140_Week05_Process_Model.drawio and Week05/Evidence/Week05_Discord_Post.jpg.&amp;nbsp;" vertex="1">
+          <mxGeometry height="105" width="1070" x="45" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
